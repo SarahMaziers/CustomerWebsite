@@ -1,0 +1,44 @@
+
+@font-face {font-family: "Source Sans Pro Bold";
+    src: url("../Fonts/Source Sans Pro Bold/Source Sans Pro Bold.eot"); /* IE9*/
+    src: url("../Fonts/Source Sans Pro Bold/Source Sans Pro Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../Fonts/Source Sans Pro Bold/Source Sans Pro Bold.woff2") format("woff2"), /* chrome、firefox */
+    url("../Fonts/Source Sans Pro Bold/Source Sans Pro Bold.woff") format("woff"), /* chrome、firefox */
+    url("../Fonts/Source Sans Pro Bold/Source Sans Pro Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../Fonts/Source Sans Pro Bold/Source Sans Pro Bold.svg#Source Sans Pro Bold") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "Novecento WideBold";
+    src: url("../Fonts/Novecento WideBold/Novecento WideBold.eot"); /* IE9*/
+    src: url("../Fonts/Novecento WideBold/Novecento WideBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../Fonts/Novecento WideBold/Novecento WideBold.woff2") format("woff2"), /* chrome、firefox */
+    url("../Fonts/Novecento WideBold/Novecento WideBold.woff") format("woff"), /* chrome、firefox */
+    url("../Fonts/Novecento WideBold/Novecento WideBold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../Fonts/Novecento WideBold/Novecento WideBold.svg#Novecento WideBold") format("svg"); /* iOS 4.1- */
+}
+
+body{
+    font-family:"Source Sans Pro Bold" ;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+
+{
+    font-family:"Novecento WideBold" ;
+    font-size:1.5em;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+
+ul li.headerNav {
+    display:inline-block;
+    list-style-type: none;
+
+}
+.lt-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 12px;
+    grid-template-areas: ". . . . . . . . . . . ." ". . . . . . . . . . . ." ". . . . . . . . . . . .";
+}
